@@ -1,18 +1,19 @@
-let km = 0;
+let distancia = 0;
 let velocidad = 9;
 
 
-while (km < 10) {
-    for (km = 3; km <= 10; km *= 3) {
+while (distancia < 10) {
+    for (distancia = 3; distancia <= 10; distancia *= 3) {
         if (velocidad < 9) {
             console.log("Aumenta tu velocidad para obtener un caramelo");
         } else {
-            console.log("Llegaste al km " + km + " toma un caramelo");
+            console.log("Llegaste al km " + distancia + " toma un caramelo");
         } 
     }; 
 
-    km++; 
+    distancia++; 
 };
+
    
 
     
